@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عرض بيانات الحملات</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="fixed-header">
+  <div class="header-container">
+    <div class="header-brand">
+      <img src="Image/logo.png" alt="شعار الحملات" class="header-logo">
+      <h1 class="header-title">مكتب شؤون حجاج دولة الكويت</h1>
+    </div>
+
+    <div class="header-contact">
+      <div class="contact-info">
+        <span class="contact-number"> 22342385 خط ساخن</span> 
+        <span class="contact-label">الموقع الرئيسي</span>
+      </div>
+      <div class="header-icons">
+        <a href="[location-link]" target="_blank" class="icon-link" aria-label="الموقع">
+          <img src="Image/locationIcon.png" class="contact-icon" alt="">
+        </a>
+        <a href="https://wa.me/96599051691" target="_blank" class="icon-link" aria-label="واتساب">
+          <img src="Image/whatsappicon.png" class="contact-icon" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div class="banner-container">
+        <img src="Image/banner.png" alt="بانر الحملات" class="banner-image">
+    </div>
+
+ 
+
+  <div class="container">
+    <div class="locations-row">
+      <div class="loc-item">
+        <p>الموقع الرئيسي/ 22342385 خط ساخن</p>
+        <div class="icon-row">
+          <a href="https://www.google.com/maps/place/Four+Points+by+Sheraton/@21.3803482,39.8740213,1060m/... " target="_blank">
+            <img src="Image/locationIcon.png" alt="موقع رئيسي" />
+          </a>
+          <a href="https://wa.me/96599051691" target="_blank">
+            <img src="Image/whatsappicon.png" alt="واتساب" />
+          </a>
+        </div>
+      </div>
+      <div class="loc-item">
+        <p>موقع البعثة في مزدلفة</p>
+        <a href="https://www.google.com/maps?q=..." target="_blank">
+          <img src="Image/locationIcon.png" alt="مزدلفة" />
+        </a>
+      </div>
+      <div class="loc-item">
+        <p>موقع البعثة في منى</p>
+        <a href="https://www.google.com/maps?q=..." target="_blank">
+          <img src="Image/locationIcon.png" alt="منى" />
+        </a>
+      </div>
+      <div class="loc-item">
+        <p>موقع البعثة في عرفة</p>
+        <a href="https://www.google.com/maps/place/...@" target="_blank">
+          <img src="Image/locationIcon.png" alt="عرفة" />
+        </a>
+      </div>
+    </div>
+
+    <h2>عرض بيانات الحملات</h2>
+
+    <table id="dataTable" class="display">
+      <thead>
+        <tr>
+          <th>ت</th>
+          <th>اسم الشركة / الحملة</th>
+          <th>موقع السكن</th>
+          <th>واتساب</th>
+        </tr>
+      </thead>
+      <tbody>
+        </tbody>
+    </table>
+  </div>
+
+   <footer id="site_footer" class="page_footer">
+    <div class="cz_middle_footer">
+      <div class="row clr">
+        <div class="col s6 sidebar_footer-1 clr">
+           <div class="footer_widget clr codevz-widget-about">
+            <div class="about-flex-container">
+              <img class="codevz-widget-about-logo mb30" src="Image/state-of-kuwait-logo.png" width="170" height="auto" alt="Logo">
+              <div class="codevz-widget-about-content mb30">
+                <p>نحن ملتزمون بتقديم أفضل الخدمات لضيوف الرحمن، لضمان رحلة حج ميسرة ومباركة.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col s2 sidebar_footer-2 clr">
+          <div id="text-1" class="center_on_mobile footer_widget clr widget_text">
+            <h4 class="codevz-widget-title">الكويت</h4>
+            <div class="codevz-widget-content clr">
+              <div class="textwidget">
+                <p>منطقة الرقعي - قطعة (1) شارع محمد بن قاسم</a><br>
+                  مبنى وزارة الأوقاف والشؤون الإسلامية - الدور رقم (11)<br>
+                  الخط الساخن : <a href="tel:99051691">99051691</a>  - الخط المباشر :<a href="tel:22342238">22342238</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s2 sidebar_footer-3 clr">
+          <div id="text-2" class="center_on_mobile footer_widget clr widget_text">
+            <h4 class="codevz-widget-title">مكة المكرمة</h4>
+            <div class="codevz-widget-content clr">
+              <div class="textwidget">
+                <p>فندق فور بوينتس باي شيراتون - حي النسيم<br>
+                  الدائري الثالث - خلف مسجد الراجحي<br>
+                  الخط الساخن واتساب : <a href="tel:99051691">99051691</a> - <a href="tel:22342238">22342238</a> 
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-bottom-bar">
+      <p>© 2025 جميع الحقوق محفوظة لمكتب شؤون الحج الكويتي</p>
+      <!-- <p>للتواصل: <a href="mailto:info@example.com">info@example.com</a></p> -->
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
